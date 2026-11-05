@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/linyh0594/" />
+<default sync-j="4" remote="github" revision="refs/heads/master" />
+<project name="debian" path="debian" revision="cc12bb502a9703f334908545a0c65ae3f7f69a47" />
+<project name="device_rockchip" path="device/rockchip" revision="d66edce44191d1da5375519fc6a7dc13f6240ec0">
+    <linkfile src="common/scripts/build.sh" dest="build.sh" />
+  <linkfile src="common/Makefile" dest="Makefile" />
+  <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh" />
+  </project>
+<project name="rockchip-kernel-5.10" path="kernel" revision="2db023ceae3f3347e28cdb101af0754176c13734" />
+<project name="prebuilts_gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="adbb295a970c4b39dc487c95226fe84d2c460072" />
+<project name="prebuilts_gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="2e89382ca3f8c34086272509ae4d7a5c340ffafc" />
+<project name="rkbin" path="rkbin" revision="2c1be1054e86338285309ecc20fa61fc15fd5437" />
+<project name="tools" path="tools" revision="bfdc00e8458b327e790167f7445eccc7482e97ef" />
+<project name="u-boot" path="u-boot" revision="826d54fb7246ec19f68b3bc16f5d93a9540c9e66" />
+<project name="repo" path="repo" revision="1f20776dbb3b87ba39928dc4baba58f9c2d17c80" />
+<project name="ubuntu" path="ubuntu" revision="8aa86642608667a41ac48bdcf9a337918cd62f43" />
+</manifest>
