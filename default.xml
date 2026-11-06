@@ -2,8 +2,8 @@
 <manifest>
   <remote name="github" fetch="https://github.com/linyh0594/" />
 <default sync-j="4" remote="github" revision="refs/heads/master" />
-<project name="debian" path="debian" revision="cc12bb502a9703f334908545a0c65ae3f7f69a47" />
-<project name="device_rockchip" path="device/rockchip" revision="d66edce44191d1da5375519fc6a7dc13f6240ec0">
+<project name="debian" path="debian" revision="3b86098753817e297a8cff00eabcb15def45f68c" />
+<project name="device_rockchip" path="device/rockchip" revision="cd59bdb3fc575d8bc8ef5307f3abb99ec38a4345">
     <linkfile src="common/scripts/build.sh" dest="build.sh" />
   <linkfile src="common/Makefile" dest="Makefile" />
   <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh" />
@@ -15,5 +15,5 @@
 <project name="tools" path="tools" revision="bfdc00e8458b327e790167f7445eccc7482e97ef" />
 <project name="u-boot" path="u-boot" revision="826d54fb7246ec19f68b3bc16f5d93a9540c9e66" />
 <project name="repo" path="repo" revision="1f20776dbb3b87ba39928dc4baba58f9c2d17c80" />
-<project name="ubuntu" path="ubuntu" revision="8aa86642608667a41ac48bdcf9a337918cd62f43" />
+<project name="ubuntu" path="ubuntu" revision="6f1f11661fef1849377d38ceb68b5ff53e9752c0" />
 </manifest>
