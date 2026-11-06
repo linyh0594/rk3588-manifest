@@ -2,8 +2,8 @@
 <manifest>
   <remote name="github" fetch="https://github.com/linyh0594/" />
 <default sync-j="4" remote="github" revision="refs/heads/master" />
-<project name="debian" path="debian" revision="3b86098753817e297a8cff00eabcb15def45f68c" />
-<project name="device_rockchip" path="device/rockchip" revision="cd59bdb3fc575d8bc8ef5307f3abb99ec38a4345">
+<project name="debian" path="debian" revision="8c06f447ff9357845d0e3407d745280e397696e0" />
+<project name="device_rockchip" path="device/rockchip" revision="aefa5d107c6411e452123324e7d778891f98bbeb">
     <linkfile src="common/scripts/build.sh" dest="build.sh" />
   <linkfile src="common/Makefile" dest="Makefile" />
   <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh" />
